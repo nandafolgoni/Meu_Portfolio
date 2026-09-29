@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio-Currículo Web</title>
+</head>
+<body>
+    <header>
+     <h1>Fernanda Folgoni - Desenvolvedora Web</h1>
+    <nav>
+        <ul style="list-style-type: disc;">
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+     <h2>Sobre Mim</h2>
+    <img src="assets/image0.png" alt="Retrato" width="150" height="150">
+    <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+    <p>Tenho conhecimento em <em>HTML</em>, <em>CSS</em> e estou aprendendo <em>JavaScript</em>.</p>
+    <h3>Minhas Habilidades:</h3>
+    <ul style="list-style-type: disc;">
+        <li>HTML5 Semântico</li>
+        <li>CSS3 e Responsividade</li>
+        <li>Formulários e Validação</li>
+        <li>Estruturação de Dados</li>
+    </ul>
+    <hr>
+
+    <h2>Meus Projetos</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Projeto</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td>Itaú</td>
+                <td>HTML, JavaScript</td>
+                <td>Concluído</td>
+                <td><a href="https://github.com/nandafolgoni/Itau">Ver Projeto</a></td>
+            </tr>
+            <tr>
+                <td>Projeto Filme</td>
+                <td>HTML, JavaScript</td>
+                <td>Concluído</td>
+                <td><a href="https://github.com/nandafolgoni/projeto-filme">Ver Projeto</a></td>
+            </tr>
+            <tr>
+                <td>Loja de Games Retrô</td>
+                <td>HTML, JavaScript</td>
+                <td>Concluído</td>
+                <td><a href="https://github.com/nandafolgoni/Desafio-HTML_-Loja_de_games_retro">Ver Projeto</td>
+            </tr>
+         </tbody>
+    </table>
+    <hr>
+
+    <h2>Entre em Contato</h2>
+    <fieldset>
+        <legend>
+          Dados do Contato
+        </legend>
+          <form action="processar.php" method="post">
+
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+         <label for="assunto">Assunto:</label><br>
+        <select id="assunto" name="assunto">
+            <option value="Oportunidade de Trabalho">Oportunidade de Trabalho</option>
+            <option value="Proposta de Projeto">Proposta de Projeto</option>
+            <option value="Contato Geral">Contato Geral</option>
+        </select><br><br>
+
+        <label for="comentarios">Mensagem::</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        <br><br>
+        <button type="submit">Enviar Mensagem</button>
+    </fieldset>
+
+    <hr>
+    </main>
+   
+    <footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <hr>
+            <a href="folgonif@gmail.com">folgonif@gmail.com</a> | 
+            <a href="11939440885">(11) 93944-0885</a>
+    </footer>
+
+
+</body>
+</html>
